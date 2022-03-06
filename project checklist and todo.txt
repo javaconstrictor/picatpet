@@ -1,0 +1,78 @@
+1 find a screen to work with sp8266 nordmcu unit
+
+2 virtual pet basics
+  1 well being stats should include
+    hunger
+    anger (secondary from excess/lack of two other emotions or extreme excess lack of one)
+    sadness (linked to joy, still seperate but can effect one another)
+    joy
+    anxiety
+    tiredness
+    weight (effected by hungers average over a period of time)
+    boredness (effected by joy, focus, productivity)
+    focus
+    productivity (linked to focus like joy)
+    laziness
+    hygene
+    sickness
+    hostility
+   these stats should be able to be set on first launch to give it a 'personality' similar to users, personality can change as pet is cared for over long time
+  2 should operate in real time
+  3 should be able to write data to drive on every sleep
+  4 possibly a WAN connection to other picats if i can ever get this far, would add a stat for loneliness for friend detection so you can meet new people when picats detect eachother
+  5 possibly a unique picat ID and online checker for living picats
+  6 maybe a webpage to check pistats
+3 MODES
+  1 study mode
+    should connect to pc and retreive data to return wellbeing stats
+    video streaming should reduce productivity and make lazy, bud add joy, reduce boredom, and temporarily mask anxiety (lol). also minimally decrease tiredness meter and hygene (make more tired)
+    coding and studying should increase focus and productivity and boredom, reduce lazy and hygene, slight reduce sadness, slight reduce joy, increase hunger, increase tiredness
+    drawing and producing should reduce boredom anxiety, laziness, anger, increase joy, tiredness, and mask hunger until task is complete.
+  2 TD mode
+    should operate like oldschool virtual pet.
+    player commands
+      feed
+      watch tv
+      play games
+      walk
+      read
+      ignore(no option but activated after so long)
+      talk it out
+      throw (a joke, throws the pet. not a toy for pet)
+      abandon (if made to work with the web, puts the pet and ID with old name in the adoption center, revokes rights of owning another picat on device etc)
+      sleep (puts pet to sleep, saves state turns device off)
+      wake up (turns device on,  wakes pet up runs daily stats)
+      give bath 
+      mode select
+    3 Wild mode/ let outside/ daycare
+      lets the pet explore outside, so it can take care of itself or puts in in the daycare with other picats if online
+      outside will be operated by virtual world/biosphere where universal stats of species will determine pets health. weighted towwards health of realease so it cant be used to earn stats without caring for pet
+      will add hostility and sadness automatically if left here for too long
+      will be abandoned after a all negative stats reach a cetain point while here after so long
+    4 Time
+      should follow real time
+      should clock pets age
+      should notify of milestones and important dates in pets life
+      if left to sleep too long the pet may enter comatose, will have to care extra well for pet for a certain time before it wakes back up
+      once hits a certain age its stats will worsen faster, and when super old will gain a small chance to pass at random once a day, increasing daily
+    5 first boot
+      should ask player to select pet (will come after first build)
+      should ask player to name pet
+      should run through a list to retrive personality stats
+      should run introduction and tutorial
+      a chance to meet pet
+    6 random actions
+      pets can bring you things at random as a gift
+      different moods should have different actions to suit them, ex. joy, cat will jump around, roll around, bored cat will nap, paw at screen, sad, cat will cry, hide away.
+      easter eggs later?
+      if stats are bad can runaway eventually leading to abandonment
+  3 text
+    1 cat can speak to you.
+      talk it out shoukld make pet explain whats wrong
+      hints, should let you know if you are trying to increase a stat thats already full or if youve been neglecting something for too long
+      should give reminders that its an important day, or tell you where cat is if not waking up (" cat has been playing in the dumpster in the alley down the street. call him back? y/n"
+      menus
+      when waking should tell you a basic sumary of how the cat is feeling " cat is really happy to see you! he is kind of hungry though.
+      need to make a usuable keyboard in system for first boot to name cat.
+      
+     
